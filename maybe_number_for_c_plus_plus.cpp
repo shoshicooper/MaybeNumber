@@ -2,6 +2,10 @@
 #include <functional>
 #include <deque>
 
+// (c) 2022 Shoshi (Sharon) Cooper.  No duplication is permitted for commercial use.  Any significant changes made must be
+// stated explicitly and the original source code, if used, must be available and credited to Shoshi (Sharon) Cooper.
+
+
 std::string MaybeNumber::Bitmask::to_string() const{
     std::string my_string = "<" + name + ", 0b";
     std::string backwards_string_of_bitmask;

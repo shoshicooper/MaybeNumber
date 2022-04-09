@@ -8,6 +8,10 @@
 #include <functional>
 #include "maybe_number_constants.h"
 
+// (c) 2022 Shoshi (Sharon) Cooper.  No duplication is permitted for commercial use.  Any significant changes made must be
+// stated explicitly and the original source code, if used, must be available and credited to Shoshi (Sharon) Cooper.
+
+
 // This class is about converting things from non-numbers to numbers without having to re-iterate the number a second time upon conversion.
 // It is useful in a number of ways:
 //    1) O(1) conversion to a number is mutable along with the string
