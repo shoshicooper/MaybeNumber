@@ -173,7 +173,7 @@ class MaybeNumberFromC(SuperclassCStructs):
         return self.convert() - other
 
     def __radd__(self, other):
-        return other + self
+        return other + self.convert()
 
     def __rsub__(self, other):
         return other + -self
