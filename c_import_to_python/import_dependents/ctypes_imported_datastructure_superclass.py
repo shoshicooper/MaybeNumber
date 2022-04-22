@@ -7,6 +7,7 @@ This is the superclass I'm using to go with the descriptor I wrote.
 
 Offers memory protection around the pointer.  Also creates the ability to use class as a context manager, which
 ensures you automatically delete the pointer when you're done using it.
+
 """
 import ctypes as ct
 

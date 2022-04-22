@@ -8,6 +8,9 @@ In this file, I present an alternative way of doing MaybeNumber:
     However, because Python is not strictly typed like C++, the object should still ducktype as both a number and a
         string depending on how you use it.
     Known problems still apply.
+
+    Also infinity is treated here like it is in the C++ version, not the Python version.  Important?
+
 """
 
 import os.path

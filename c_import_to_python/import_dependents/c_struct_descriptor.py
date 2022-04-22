@@ -10,7 +10,8 @@ Now, it is possible to create a descriptor that will set the argtypes and the re
 But that descriptor was agonizingly slow.  I opted for this one instead -- which is nice and fast!
 And you can use super() on it.
 
-Again, though, this is mostly for niceness of syntax inside the program.
+Again, though, this is mostly just so the code looks nicer.
+
 """
 
 

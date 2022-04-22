@@ -4,6 +4,7 @@ CString class is written in C, not C++, so it presupposes no std::string class.
 
 Had this lying around.  Thought it'd be useful here so I could use mutable strings with context manager.
 Gutted most of original and the rest is here.
+
 """
 import ctypes as ct
 import os
